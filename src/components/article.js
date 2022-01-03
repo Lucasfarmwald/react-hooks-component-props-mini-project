@@ -1,5 +1,6 @@
 import react from "react";
 import blogData from "../data/blog";
+import ArticleList from "./articleList";
 
 function Article(props){
     return (

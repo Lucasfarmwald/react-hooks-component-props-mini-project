@@ -1,17 +1,17 @@
 import react from "react";
 import blogData from "../data/blog";
+  const {posts} = blogData
+
 
 function ArticleList(props){
+
+const mapPosts = posts.map(n => <article>{n.title}</article>)
     return(
-        <main>
-            
-                <article key={1}></article>
-                <article key={2}></article>
-                <article key={3}></article>
-            
-        </main>
+
+        <main>{mapPosts}</main>
     )
 };
+
 
 console.log()
 

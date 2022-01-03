@@ -5,7 +5,7 @@ import About from "./about"
 import ArticleList from "./articleList"
 import Article from "./article"
 
-console.log(blogData);
+console.log();
 const {about,image,name,posts} = blogData
 function App(props) {
   
