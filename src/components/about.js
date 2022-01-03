@@ -5,7 +5,7 @@ function About(props){
     return (
         <div>
         <aside>
-            <img>{props.image}</img>
+            <img src="https://via.placeholder.com/215" alt="blog logo"></img>
             
         </aside>
           <p>{blogData.about}</p>

@@ -6,17 +6,17 @@ import ArticleList from "./articleList"
 import Article from "./article"
 
 console.log(blogData);
-const {about,image,name} = blogData
+const {about,image,name,posts} = blogData
 function App(props) {
   
   return (
     <div className="App">
-      <Header Blogname={about} />
-      <About logo={image} />
-      <ArticleList ArticleList="Im the articlelist component" />
-      <Article Article="Im the article" />
+      <Header Blogname={name} />
+      <About  />
+      <ArticleList />
+      <Article />
     </div>
   );
 }
-console.log(blogData)
+console.log()
 export default App;
